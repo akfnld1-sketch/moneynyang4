@@ -1,0 +1,55 @@
+{
+  "name": "머니냥 - 내 돈 관리",
+  "short_name": "머니냥",
+  "description": "알바생·프리랜서·직장인을 위한 AI 수입·생존관리 앱",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#4f7cff",
+  "orientation": "portrait",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "./img/icons/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./img/icons/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/icons/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./img/icons/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "근태관리",
+      "short_name": "근태",
+      "description": "출퇴근 기록",
+      "url": "./index.html#att",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='80'%3E📋%3C/text%3E%3C/svg%3E", "sizes": "any" }]
+    },
+    {
+      "name": "생존관리",
+      "short_name": "생존",
+      "description": "지출·잔고 관리",
+      "url": "./index.html#budget",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='80'%3E🛡️%3C/text%3E%3C/svg%3E", "sizes": "any" }]
+    }
+  ]
+}
